@@ -16,6 +16,15 @@ var booleanTrue = true; // boolean vrai
 // var varNull = null; // null
 
 
+//----------------- TYPES - CONVERSION -----------------//
+
+var nombre = parseInt(prompt("Indiquez votre âge"));
+var moyenne = parseFloat(prompt("Quelle est ta moyenne au bac ?"));
+
+var nb1 = Number(prompt("Entrez nb1 :"));
+// (Number) Majuscule : C'est un objet (= une class), retourne une valeur numérique. Différent de parseit et parsefloat.
+
+
 //----------------- CALCUL -----------------//
 
 
@@ -65,3 +74,4 @@ while (prenom.length <= 12){
 }
 
 document.write(prenom);
+
